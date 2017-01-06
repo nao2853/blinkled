@@ -7,6 +7,7 @@ pin15 出力２
 pin40 GND  
 出力1,2をLEDのアノードに、GNDをカソードに接続する  
 
+使い方  
 '$cd blinkled'  
 '$make'  
 '$insmod myled.ko'  
@@ -17,3 +18,6 @@ pin40 GND
 
 '$echo 0 > /dev/myled0'  
 出力２に接続したLEDが発光  
+
+動画  
+https://youtu.be/GNHn6Q6AKCo
